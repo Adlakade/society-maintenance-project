@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: mulish;
+}
+body{
+  background-color:var(--background-color);
+}
+
+:root {
+  /* Primary Theme Colors */
+  --color-primary: #2f80ed; /* Soft Blue */
+  --color-secondary: #cdb7a2; /* Sky Blue */
+
+  /* Backgrounds */
+  --color-bg: #f9fafb; /* Very Light Gray */
+  --color-card: #ffffff; /* White */
+  --background-color: #ddd9d461;
+
+
+  /* Text Colors */
+  --text-primary: #1f2937; /* Dark Gray */
+  --text-secondary: #6b7280; /* Medium Gray */
+
+  /* Status Colors */
+  --color-success: #27ae60; /* Green for Paid */
+  --color-warning: #f2994a; /* Orange for Pending */
+
+  /* Text Size */
+  --text-size: 1.2rem;
+  --heading-size: 2.8rem;
+  --text-color:#4e4848;
+
+  /* iconColor */
+  --iconColor :#deac7c
+}

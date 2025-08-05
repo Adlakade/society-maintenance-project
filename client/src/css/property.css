@@ -1,0 +1,35 @@
+.property-section {
+  background-color: var(--background-color);
+}
+.property-section > h3 {
+  font-size: 2rem;
+  margin-left: 3rem;
+  padding-block: 2rem;
+  display: inline;
+}
+
+.propertySwiper {
+  width: 100%;
+  height: 100%;
+  padding-block: 2rem;
+}
+
+.property-slide {
+  height: 20rem;
+  width: 20rem  !important;
+  text-align: center;
+  font-size: 18px;
+  /* background: #444; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.property-slide img {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
