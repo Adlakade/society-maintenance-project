@@ -14,7 +14,7 @@
 .about {
   background-color: var(--background-color);
 }
-.aboutcontainer{
+.aboutcontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -22,8 +22,20 @@
   padding-inline: 3rem;
   padding-block: 1rem;
 }
-.facility{
+.facility {
   font-size: 2rem;
   margin-left: 3rem;
   margin-block: 2rem;
+}
+
+.div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3rem;
+}
+
+.div span{
+  display: block;
+  margin-left:6rem ;
 }

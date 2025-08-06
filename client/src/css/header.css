@@ -50,4 +50,17 @@ nav a:hover {
   text-transform: capitalize;
   font-weight: 600;
   cursor: pointer;
+  position: relative;
+
 }
+
+/* .navbtn::after{
+  content: "";
+  position: absolute;
+
+  left: 0;
+  background-color: #cdb7a2;
+}
+.navbtn:hover::after{
+
+} */

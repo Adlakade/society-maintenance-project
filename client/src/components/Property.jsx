@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import Button from "./Button.jsx";
 
 const Property = () => {
   console.log();
@@ -19,9 +20,13 @@ const Property = () => {
   return (
     <>
       <div className="property-section">
-        <h3>Find your dream property</h3>
-  
-        <button>Sell all</button>
+        <div className="titel">
+          <h3>Find your dream property</h3>
+          
+
+          {/* <button>Sell all</button> */}
+          <Button/>
+        </div>
 
         <Swiper
           slidesPerView={4}

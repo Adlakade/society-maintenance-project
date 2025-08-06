@@ -1,8 +1,8 @@
 import React from "react";
 import "../css/aboutsociety.css";
 import FacilityCard from "./FacilityCard";
-import {facilityData } from "../assets/images.js";
-
+import { facilityData } from "../assets/images.js";
+import Button from "./Button.jsx";
 
 const AboutSociety = () => {
   return (
@@ -22,10 +22,23 @@ const AboutSociety = () => {
           rationeimpedit repudiandae possimus id cupiditate autem nam corporis
           voluptatem dolore rerum, minima perferendis eligendi ratione
         </p>
-        <h3 className="facility">Facility</h3>
+        <div className="div">
+          <h3 className="facility">Facility </h3>
+          <span>
+            <Button />
+          </span>
+        </div>
+
         <div className="aboutcontainer">
-          {facilityData.map((data,index) => {
-            return <FacilityCard key={index} facilityname = {data.name} faciltyimg = {data.image} facilityicon= {data.icon}/>;  
+          {facilityData.map((data, index) => {
+            return (
+              <FacilityCard
+                key={index}
+                facilityname={data.name}
+                faciltyimg={data.image}
+                facilityicon={data.icon}
+              />
+            );
           })}
         </div>
       </div>
