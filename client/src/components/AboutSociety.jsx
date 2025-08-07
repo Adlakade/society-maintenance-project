@@ -25,7 +25,7 @@ const AboutSociety = () => {
         <div className="div">
           <h3 className="facility">Facility </h3>
           <span>
-            <Button />
+            <Button btnname="Show More" />
           </span>
         </div>
 

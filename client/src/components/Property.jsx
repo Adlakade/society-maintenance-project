@@ -25,7 +25,7 @@ const Property = () => {
           
 
           {/* <button>Sell all</button> */}
-          <Button/>
+          <Button btnname="Show More" />
         </div>
 
         <Swiper

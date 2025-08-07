@@ -19,7 +19,7 @@ const Header = () => {
           <Link to="/">Contact</Link>
         </nav>
         <a href="">
-          <button className="navbtn">Owner login</button>
+          <button className="navbtn">owner login</button>
         </a>
       </header>
     </>

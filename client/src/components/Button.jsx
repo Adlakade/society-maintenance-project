@@ -1,13 +1,13 @@
 import React from 'react'
 import "../css/button.css"
 
-const Button = () => {
+const Button = ({btnname}) => {
   return (
     <>
     <button className='commanbtn'>
         <i className="fi fi-rr-arrow-small-right"></i>
         <div className="btntext">
-            Show More
+            {btnname}
         </div>
     </button>
     </>
