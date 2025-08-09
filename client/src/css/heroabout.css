@@ -1,0 +1,29 @@
+.hero-about {
+  height:65vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(.9)  drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+/* border: 1px solid black; */
+}
+.about-page {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.about-page h1 {
+  font-size: var(--heading-size);
+  color: black;
+}
+.about-page p {
+  font-size: var(--text-size);
+  color: black;
+}

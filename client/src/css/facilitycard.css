@@ -21,7 +21,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 2rem auto;
+  /* padding: 2rem auto; */
+  padding-inline: 1rem;
 }
 .facilityCard > .desc > img {
   width: 2rem;

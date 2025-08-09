@@ -1,0 +1,50 @@
+.facility-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.facility-info, .facility-details, .facility-contact {
+  margin-bottom: 20px;
+}
+h1, h2 {
+  color: #333;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 5px 0;
+}
+form div {
+  margin-bottom: 10px;
+}
+.facility-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.facility-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.facility-form button:hover {
+  background-color: #0056b3;
+}
+.facility-form {
+  background-color: rgba(26, 25, 25, 0.584);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    width: 100%;
+
+}

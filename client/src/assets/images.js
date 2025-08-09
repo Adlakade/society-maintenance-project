@@ -8,6 +8,11 @@ import SliderImg7 from "./slide7.jpg";
 import atharvnagri1 from "./atharvnagri1.jpg";
 import atharvnagri2 from "./atharvnagri2.jpg";
 import atharvnagri3 from "./atharvnagri3.jpg";
+import swimming from './swimming.jpg'
+import gymimage from './gymimage.jpg'
+import ground from './ground.jpg'
+import yogacenter from './yogacenter.jpg'
+import templeimage from './templeimage.jpg';
 
 // icons
 import swimmer from "./swimmer.png";
@@ -31,27 +36,27 @@ export const SliderImg = {
 
 export const facilityData = [
   {
-    image: SliderImg6,
+    image: swimming,
     name: "swimming pool",
     icon: swimmer,
   },
   {
-    image: SliderImg1,
+    image: gymimage,
     name: "Gym",
     icon: gym,
   },
   {
-    image: SliderImg2,
+    image: ground,
     name: "Play Ground",
     icon:playground,
   },
   {
-    image: SliderImg4,
+    image: yogacenter,
     name: "Yoga Center",
     icon: yoga,
   },
   {
-    image: SliderImg6,
+    image: templeimage,
     name: "Temple",
      icon: temple,
   },

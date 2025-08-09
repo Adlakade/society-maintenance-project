@@ -1,0 +1,70 @@
+.eventsection {
+  background-color: var(--background-color);
+  padding-block: 2rem;
+}
+
+.eventgrid {
+  height: 600px;
+  width: 100%;
+  /* margin-inline: 3rem   ; */
+  /* gap: 1rem; */
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  padding-block: 2rem;
+  padding-inline: 3rem;
+}
+
+.eventhead {
+  font-size: 2rem;
+  padding-left: 3rem;
+}
+.eventgrid {
+  padding-block: 3rem;
+}
+.eventgrid .evt1 {
+  /* background-color: brown; */
+  height: 200px;
+  margin-top: 50px;
+}
+.eventgrid .evt2 {
+  /* background-color: red; */
+  height: 320px;
+}
+.eventgrid .evt3 {
+  /* background-color: red; */
+  height: 200px;
+  margin-top: 50px;
+}
+/* .eventgrid .evt4{
+    background-color: red;
+    height: 320px;
+    margin-top: 70px;
+
+} */
+.eventgrid .evt5 {
+  /* background-color: red; */
+  height: 320px;
+  margin-top: -60px;
+}
+.eventgrid .evt6 {
+  /* background-color: red; */
+  height: 200px;
+}
+.eventgrid .evt7 {
+  /* background-color: red; */
+  height: 320px;
+  margin-top: -60px;
+}
+.eventgrid .evt8 {
+  /* background-color: red; */
+  height: 200px;
+}
+
+.gridimg {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}

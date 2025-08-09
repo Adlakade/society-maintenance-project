@@ -1,0 +1,34 @@
+.facilityCard {
+  height: 15rem;
+  width: 12rem;
+  /* border: 1px solid black; */
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.512);
+  border-radius: 10px;
+}
+.facilityimg {
+  height: 60%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.facilityimg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.facilityCard > .desc {
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem auto;
+}
+.facilityCard > .desc > img {
+  width: 2rem;
+}
+.facilityCard:hover > .desc > h3 {
+  color: brown;
+}
+.facilityCard:hover > .desc > img {
+  filter: brightness(0);
+}

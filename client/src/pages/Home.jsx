@@ -4,17 +4,17 @@ import AboutSociety from '../components/AboutSociety'
 import Property from '../components/Property'
 import Events from '../components/Events'
 import Testimonial from '../components/Testimonial'
-import Footer from '../components/Footer'
+
 
 const Home = () => {
   return (
     <>
     <Silder/>
     <AboutSociety/>
-    <Property/>
+    {/* <Property/>  */}
     <Events/>
     <Testimonial/>
-    <Footer/>
+
     </>
 
   )

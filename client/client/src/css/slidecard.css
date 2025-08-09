@@ -1,0 +1,41 @@
+.slidecard {
+  /* margin-top: 2rem; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+  background-color:var(--background-color);
+}
+
+.slidecard .text {
+  height: 100%;
+  width: 45%;
+  text-transform: capitalize;
+  padding-block: 10rem;
+}
+.text h2 {
+  font-size: var( --heading-size);
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+.text p {
+  font-size: var(--text-size);
+  font-weight: 500;
+  padding-inline: 1.2rem;
+  color: var(--text-color);
+
+}
+.slidecard .img {
+  height: 100%;
+  width: 55%;
+}
+
+.img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 1.5rem;
+  object-fit: cover;
+}

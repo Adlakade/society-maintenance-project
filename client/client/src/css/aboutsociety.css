@@ -1,0 +1,41 @@
+.aboutheading {
+  text-align: center;
+  font-size: var(--heading-size);
+  /* padding-block: 4rem; */
+  padding-top: 4rem;
+}
+.aboutpara {
+  font-size: var(--text-size);
+  padding-block: 3rem;
+  padding-inline: 2rem;
+  line-height: 2rem;
+  color: var(--text-color);
+}
+.about {
+  background-color: var(--background-color);
+}
+.aboutcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 3rem;
+  padding-block: 1rem;
+}
+.facility {
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-block: 2rem;
+}
+
+.div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3rem;
+}
+
+.div span{
+  display: block;
+  margin-left:6rem ;
+}

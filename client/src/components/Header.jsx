@@ -12,11 +12,11 @@ const Header = () => {
         </div>
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/bout">About</Link>
-          <Link to="/">Property</Link>
-          <Link to="/">Celebration</Link>
-          <Link to="/">Facility</Link>
-          <Link to="/">Contact</Link>
+          <Link to="/about">About</Link>
+          {/* <Link to="/property">Property</Link> */}
+          <Link to="/celebration">Celebration</Link>
+          <Link to="/facility">Facility</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
         <a href="">
           <button className="navbtn">owner login</button>

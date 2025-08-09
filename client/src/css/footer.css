@@ -12,10 +12,9 @@
 }
 .footer-bottom {
   text-align: center;
-  padding: 10px 0;
   background-color: var(--color-secondary);
   color: #333;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
 }
 .basic-info > h3 {
   display: inline;
