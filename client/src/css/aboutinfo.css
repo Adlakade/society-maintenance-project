@@ -1,0 +1,15 @@
+.about-info{
+    padding-inline: 3rem;
+    padding-block: 3rem;
+    background-color: var(--background-color);
+}
+.about-info h2{
+    font-size: 2rem;
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+}
+.about-info p{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    line-height: 1.5;
+}

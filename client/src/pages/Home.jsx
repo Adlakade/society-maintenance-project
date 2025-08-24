@@ -11,7 +11,7 @@ const Home = () => {
     <>
     <Silder/>
     <AboutSociety/>
-    {/* <Property/>  */}
+    <Property/> 
     <Events/>
     <Testimonial/>
 

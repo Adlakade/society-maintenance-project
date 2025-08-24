@@ -2,33 +2,29 @@
   padding: 20px;
   background-color: #f9f9f9;
 }
-.about-info, .about-details, .about-contact {
-  margin-bottom: 20px;
+.about-mission{
+  padding: 3rem 3rem;
+    background-color: var(--background-color);
+} 
+.about-mission p{
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
-h1, h2 {
-  color: #333;
+.about-mission h2{
+  /* font-size: 2rem; */
+  color: var(--heading-color);
+  margin-bottom: 1rem;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.about-mission ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
 }
-li {
-  margin: 5px 0;
-}
-form div {
+.about-mission li {
   margin-bottom: 10px;
-}
-.about-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-.about-form button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-}
-.about-form button:hover {
-  background-color: #0056b3;
+  font-size: 1.1rem;
+  color: var(--text-color);
+} 
+.about-mission li::marker {
+  color: var(--heading-color);
 }

@@ -1,0 +1,32 @@
+.SocietyMemberCard{
+    height: 80%;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 8px;
+    /* padding: 16px; */
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.SocietyMemberCard:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px black;
+    border: none;
+}
+
+.SocietyMemberCard img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.SocietyMemberCard h2 {
+    font-size: 1.5rem;
+    margin: 12px 0 8px;
+}
+
+.SocietyMemberCard p {
+    font-size: 1rem;
+    color: #666;
+}

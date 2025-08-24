@@ -50,9 +50,9 @@ const Footer = () => {
                 <li>Terms & Conditions</li>
               </ul>
 
-              <Link className="admin-login" to="/adminlogin">
+              {/* <Link className="admin-login" to="/adminlogin">
                 <Button btnname="Admin login" />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

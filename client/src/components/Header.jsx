@@ -19,8 +19,11 @@ const Header = () => {
           <Link to="/contact">Contact</Link>
         </nav>
         <a href="">
-          <button className="navbtn">owner login</button>
+          <button className="navbtn">Admin login</button>
         </a>
+        <div className="hamburgermanu">
+          <i className="fa-solid fa-bars"></i>
+        </div>
       </header>
     </>
   );

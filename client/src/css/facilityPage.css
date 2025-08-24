@@ -1,50 +1,47 @@
-.facility-page {
-  padding: 20px;
-  background-color: #f9f9f9;
+.facility-info{
+  padding: 1rem 3rem;
+    background-color: var(--background-color);
 }
-.facility-info, .facility-details, .facility-contact {
-  margin-bottom: 20px;
+.facility-details{
+  padding: 1rem 3rem;
+    background-color: var(--background-color);
 }
-h1, h2 {
-  color: #333;
+.facility-info{
+  padding: 1rem 3rem; 
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.facility-info p {
+  font-size: 1.2rem;
+  color: var(--text-color);
 }
-li {
-  margin: 5px 0;
+.facility-info ul {
+  list-style-type: disc;
+  padding-left: 2rem;
 }
-form div {
-  margin-bottom: 10px;
+.facility-info li {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}   
+.facility-info li::marker {
+  color: var(--marker-color);
+}   
+.facility-info li:hover {
+  color: var(--hover-color);
+} 
+.facility-info li a {
+  color: var(--link-color);
+  text-decoration: none;
+}    
+.facility-details {
+  padding: 1rem 3rem;
 }
-.facility-form label {
-  display: block;
-  margin-bottom: 5px;
+.facility-details h2 {
+  /* font-size: 2rem;  */
+  color: var(--text-color);
+  margin-bottom: 1rem;
 }
-.facility-form button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-}
-.facility-form button:hover {
-  background-color: #0056b3;
-}
-.facility-form {
-  background-color: rgba(26, 25, 25, 0.584);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  color: white;
-  max-width: 600px;
-  margin: auto;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  transition: background-color 0.3s ease;
-    box-sizing: border-box;
-    width: 100%;
-
-}
+.facility-details p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}   
